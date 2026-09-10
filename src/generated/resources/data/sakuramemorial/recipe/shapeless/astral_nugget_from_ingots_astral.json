@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/astral"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "sakuramemorial:astral_nugget"
+  }
+}

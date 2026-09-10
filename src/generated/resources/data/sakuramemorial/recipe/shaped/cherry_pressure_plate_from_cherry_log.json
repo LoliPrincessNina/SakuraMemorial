@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": {
+      "item": "minecraft:cherry_log"
+    }
+  },
+  "pattern": [
+    "XX"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:cherry_pressure_plate"
+  }
+}

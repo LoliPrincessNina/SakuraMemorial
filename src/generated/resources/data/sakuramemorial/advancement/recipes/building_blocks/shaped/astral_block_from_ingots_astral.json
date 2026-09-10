@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingots_astral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/astral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sakuramemorial:shaped/astral_block_from_ingots_astral"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingots_astral"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sakuramemorial:shaped/astral_block_from_ingots_astral"
+    ]
+  }
+}

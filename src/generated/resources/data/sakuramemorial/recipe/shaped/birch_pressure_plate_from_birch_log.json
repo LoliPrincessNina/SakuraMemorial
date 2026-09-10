@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "pattern": [
+    "XX"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:birch_pressure_plate"
+  }
+}

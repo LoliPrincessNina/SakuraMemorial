@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "minecraft:stripped_mangrove_log"
+  },
+  "output": {
+    "count": 8,
+    "id": "minecraft:mangrove_planks"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dusts_sakura": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/sakura"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sakuramemorial:smelting/sakura_ingot_from_dusts_sakura"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dusts_sakura"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sakuramemorial:smelting/sakura_ingot_from_dusts_sakura"
+    ]
+  }
+}

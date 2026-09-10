@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nuggets_sakura_memorial": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/sakura_memorial"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sakuramemorial:shaped/sakura_memorial_alloy_from_nuggets_sakura_memorial"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nuggets_sakura_memorial"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sakuramemorial:shaped/sakura_memorial_alloy_from_nuggets_sakura_memorial"
+    ]
+  }
+}

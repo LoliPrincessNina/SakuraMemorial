@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingots_sakura": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/sakura"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sakuramemorial:shapeless/sakura_nugget_from_ingots_sakura"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingots_sakura"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sakuramemorial:shapeless/sakura_nugget_from_ingots_sakura"
+    ]
+  }
+}

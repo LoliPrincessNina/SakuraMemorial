@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_storage_blocks_astral": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:storage_blocks/astral"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sakuramemorial:shapeless/astral_ingot_from_storage_blocks_astral"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_storage_blocks_astral"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sakuramemorial:shapeless/astral_ingot_from_storage_blocks_astral"
+    ]
+  }
+}

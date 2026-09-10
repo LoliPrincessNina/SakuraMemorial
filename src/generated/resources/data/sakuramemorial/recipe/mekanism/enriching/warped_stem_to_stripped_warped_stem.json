@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "item": "minecraft:warped_stem"
+  },
+  "output": {
+    "count": 1,
+    "id": "minecraft:stripped_warped_stem"
+  }
+}
